@@ -1,6 +1,7 @@
 <script>
     import {fly} from 'svelte/transition';
     import {page} from '$app/stores';
+    import Header from '../lib/components/Header.svelte';
 
     const {children} = $props();
 
@@ -14,13 +15,7 @@
 
 </script>
 
-<header>
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-    </nav>
-    <h1>Zde je sablona</h1>
-</header>
+<Header /> 
 
 {#key $page.url}
 <main
