@@ -15,10 +15,9 @@
 <style>
 header {
   background-color: #ffd2b4; 
-  padding: 20px; 
+  padding: 35px; 
   box-shadow: rgba(83, 48, 3, 0.76) 0px 2px 8px;
   text-align: center;
-
 }
 
 nav ul {
@@ -34,11 +33,13 @@ nav a {
   text-decoration: none;
   color: #8b4b20; 
   font-weight: bold; 
+  font-size: larger;
   font-family: Sans-serif; 
 }
 
 nav a:hover {
-  color: #572402; 
+  color: #572402 ; 
 }
 
 </style>
+
