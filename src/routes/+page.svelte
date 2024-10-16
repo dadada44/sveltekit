@@ -33,8 +33,8 @@
     }
 
     .hero-buttons a{
-        color: blanchedalmond;
-        background-color: #8b4b20;
+        color: white;
+        background-color: #72645b;
         text-decoration: none;
         width: 150px;
         height: 50px;
@@ -63,7 +63,7 @@
 
     .hero-buttons a:hover{
         color: white;
-        background: rgb(4, 97, 11);
+        background: #3b3531;
     }
 
 </style>
